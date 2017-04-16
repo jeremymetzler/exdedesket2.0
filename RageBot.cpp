@@ -1153,6 +1153,15 @@ namespace AntiAims // CanOpenFire checks for fake anti aims?
 
 	void fakelowerbody(CUserCmd *pCmd, bool &bSendPacket)
 	{
+		static bool flip = false;
+		static bool flip2 = false;
+		float flip2angle = 0.f;
+		if (pLocal->lowerbody() != G::MyLowerBody) //If lowerbody updates and is different than previous change the antiaim
+		flip2 = !flip2;
+		if (flip2)
+		flip2angle = 180.f;
+	else
+		flip2angle = 0.f;
 		static bool f_flip = true;
 		f_flip = !f_flip;
 
