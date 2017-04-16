@@ -1,0 +1,34 @@
+﻿  AntiAntiAim.cpp
+  Autowall.cpp
+  Chams.cpp
+  Controls.cpp
+  CRC32.cpp
+  DLLMain.cpp
+  Dumping.cpp
+  ESP.cpp
+  GUI.cpp
+  Hacks.cpp
+  Hooks.cpp
+  ReflectiveLoader.cpp
+  Interfaces.cpp
+  LegitBot.cpp
+  MathFunctions.cpp
+  Menu.cpp
+  MetaInfo.cpp
+  MiscHacks.cpp
+  NetVarManager.cpp
+  NetVars.cpp
+  Offsets.cpp
+  RageBot.cpp
+  RenderManager.cpp
+  Resolver.cpp
+  SpoofedConvar.cpp
+Resolver.cpp(44): error C2370: 'StoredYaw': redefinition; different storage class
+  Resolver.cpp(32): note: see declaration of 'StoredYaw'
+Resolver.cpp(45): error C2370: 'bLowerBodyIsUpdated': redefinition; different storage class
+  Resolver.cpp(33): note: see declaration of 'bLowerBodyIsUpdated'
+  tinyxml2.cpp
+  UTIL Functions.cpp
+  Utilities.cpp
+  Visual.cpp
+  Window.cpp
